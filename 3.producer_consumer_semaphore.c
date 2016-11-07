@@ -23,7 +23,6 @@ void produce(void){
 
 void consumer(void){
     int item;
-
     while(TRUE){
         down(&full)           /*将满槽数目减1*/
         down(&mutex)          /*进入临界区*/
