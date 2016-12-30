@@ -1,5 +1,7 @@
 /**
 *使用信号量的生产者消费者问题
+*P测试test
+*Vincrement增加
 */
 
 #define N 100
